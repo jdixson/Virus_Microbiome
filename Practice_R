@@ -1,0 +1,7 @@
+#Meta 
+set("~/")
+Konzo_Meta <- read.csv("./KinshasaControl_Konzo3_Meta_practice.csv")
+View(Konzo_Meta)
+names(Konzo_Meta)<-c("Sample","Name","Run","ID","Region","Status","Disease","Sample_ID","Collection_date","DNA_Concentration","Isolation_date","Elution","Age","Sex","Disease_Old","Intervention")
+rownames(Konzo_meta)<-as.character(Konzo_meta[,1]) #The code above it worked but this one and the one below it did not.
+META<-sample_data(Konzo_meta) 
