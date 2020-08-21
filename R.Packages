@@ -1,0 +1,36 @@
+install.packages("ggpubr") #Installed
+install.packages("devtools") #Installed
+install.packages("picante") #installed
+install.packages("TSA") # could not install, not available for 4.0.2
+install.packages("nortest") #installed
+install.packages("multcomp") #installed
+install.packages("car") #installed
+install_github("microbiome/microbiome") #installed
+install.packages("mvabund")
+install.packages("MASS")
+install.packages("geepack")
+install.packages("doBy")
+install.packages("lattice")
+install.packages("MuMIn")
+install.packages("phangorn")
+install.packages("DESeq2")
+install.packages("FSA")
+install.packages("vegan")
+install.packages("phyloseq") #installed #biocLite('phyloseq')
+install.packages("microbiome") #installed #biocLite('microbiome')
+install.packages("tidyverse") #installed
+install.packages("ggplot2") #installed
+install.packages("rentrez") #installed
+install.packages("XML") #installed
+install.packages("ggrepel") #installed
+install.packages("plyr") #biocLite('plyr')
+install.packages("DESeq2") #biocLite('DESeq2')
+install.packages("reshape2")#installed
+install.packages("colorspace") #biocLite('colorspace')
+install.packages("zoo") #installed
+install.packages("magrittr") #biocLite('magrittr')
+install.packages("tidyr") #installed
+
+install.packages("tidygraph")
+install.packages("tidytree")
+install.packages("ggtree")
