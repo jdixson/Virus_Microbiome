@@ -6,17 +6,20 @@ install.packages("nortest") #installed
 install.packages("multcomp") #installed
 install.packages("car") #installed
 install_github("microbiome/microbiome") #installed
-install.packages("mvabund")
-install.packages("MASS")
-install.packages("geepack")
-install.packages("doBy")
+install.packages("mvabund") # installed and loaded
+install.packages("MASS") # installed but not loaded in library**
+install.packages("geepack") # installed but could not dowload into library ***
+install.packages("doBy") # installed ""
 install.packages("lattice")
 install.packages("MuMIn")
 install.packages("phangorn")
 install.packages("DESeq2")
 install.packages("FSA")
 install.packages("vegan")
-install.packages("phyloseq") #installed #biocLite('phyloseq')
+install.packages("phyloseq") #installed #if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("phyloseq")
 install.packages("microbiome") #installed #biocLite('microbiome')
 install.packages("tidyverse") #installed
 install.packages("ggplot2") #installed
@@ -34,3 +37,41 @@ install.packages("tidyr") #installed
 install.packages("tidygraph")
 install.packages("tidytree")
 install.packages("ggtree")
+
+https://rpubs.com/Mentors_Ubiqum/list_packages # how to check the packages you installed and libraries
+
+library("ggpubr")
+library("devtools")
+library("picante") #installed
+library("TSA")
+library("nortest") #installed
+library("multcomp")
+library("car") #installed
+library("microbiome")
+library("mvabund") #installed
+library("MASS") #installed
+library("geepack") #installed
+library("doBy") #installed
+library("lattice") #installed
+library("MuMIn")
+library("phangorn") #intalled
+library("DESeq2") #installed
+library("FSA")
+
+library("phyloseq") #installed #biocLite('phyloseq')
+library("microbiome") #installed #biocLite('microbiome')
+library("tidyverse") #installed
+library("ggplot2") #installed
+library("rentrez") #installed
+library("XML") #installed
+library("ggrepel") #installed
+library("plyr") #biocLite('plyr')
+library("vegan") #installed
+library("DESeq2") #biocLite('DESeq2')
+library("reshape2")#installed
+library("colorspace") #biocLite('colorspace')
+library("zoo") #installed
+library("magrittr") #biocLite('magrittr')
+library("tidyr") #installed
+library("cvcqv")
+library("raster")
